@@ -12,6 +12,9 @@
     "angular": "^1.5.6"
   },
   "devDependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
   }
 }
