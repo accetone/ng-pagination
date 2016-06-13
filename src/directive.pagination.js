@@ -17,8 +17,6 @@
             },
             template: template,
             link: function(scope, element) {
-                // TODO: refactor
-
                 var activate = scope.activate();
                 var queryPage = $location.search().page;
                 var current = queryPage ? parseInt(queryPage) : 1;
