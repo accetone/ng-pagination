@@ -47,6 +47,7 @@
                 function toPage(page) {
                     if (page.value === current || page.type === 'separator') return;
 
+
                     if (page.type === 'page') {
                         current = page.value;
                     }
@@ -72,6 +73,7 @@
                         return;
                     }
 
+                    pagesCount = pages.count;
                     scope.pages = generate(pages, options);
                     $location.search('page', current);
                 }
