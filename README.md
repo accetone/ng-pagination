@@ -64,6 +64,8 @@ Insert pagination directive into your markup:
 
 ### Demo
 
+You can see [demo](http://accetone.github.io/ng-pagination-demo) and [code](https://github.com/accetone/ng-pagination-demo)
+
 ### Contribution
 
 If you find error or want improve something, feel free to create issues and pull requests.
