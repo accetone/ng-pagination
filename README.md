@@ -7,7 +7,7 @@ Pagination directive for angular (1.x.x).
 - saving current page to url query and use this on reload
 - css free - you can stylize directive as you want 
 - separators and navigation arrows
-- lightweight, only 2.42 KB (this is cool, right? ;))
+- lightweight, only 2.42 KB, this is cool, right? ;)
 - that's all folks!
 
 ### Usage
