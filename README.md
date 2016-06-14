@@ -3,8 +3,10 @@
 Pagination directive for angular (1.x.x).
 
 **Our key features**  
-- nice UI with fixed count of active elements, so your pagination never broke the design if you have a large amount of pages; you can try this feature on [demo page](http://accetone.github.io/ng-pagination-demo)
+- nice UI with fixed count of elements, so your pagination never broke the design if you have a large amount of pages; you can try this feature on [demo page](http://accetone.github.io/ng-pagination-demo)
 - saving current page to url query and use this on reload
+- css free - you can stylize directive as you want 
+- separators and navigation arrows
 - lightweight, only 2.42 KB (this is cool, right? ;))
 - that's all folks!
 
@@ -61,6 +63,16 @@ Insert pagination directive into your markup:
 ```
 
 ### Options
+Directive have 3 required attributes: `count`, `take` and `activate`.  
+- `count` - total number of items that your want to paginate
+- `take` - number of items per page
+- `activate` - function that will be called when current page changed, also called once after directive initialized
+
+Optional attributes:
+- `max-size` - maximum count of elemetns (default = 11, min = 7)
+- `hide-arrows` - hide navigation arrows (default = false)
+
+You can configure template of directive - find `template` function in directive file.
 
 ### Demo
 
