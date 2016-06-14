@@ -72,7 +72,7 @@ Optional attributes:
 - `max-size` - maximum count of elemetns (default = 11, min = 7)
 - `hide-arrows` - hide navigation arrows (default = false)
 
-You can configure template of directive - find `template` function in directive file.
+You can configure template - find `template` function in directive file.
 
 ### Demo
 
