@@ -3,12 +3,10 @@
 Pagination directive for angular (1.x.x).
 
 **Our key features**  
-- native parts mechanism: load your locale files using complex url templates like `/locale-{part}-{lang}.json`  
-- parallel asynchronous loading: translations from part will be available and showed as soon as loaded  
-- built-in caching of loaded translations and choosed language using browser localstorage, 
-so next time user will see translations imidiatelly  
-- configurable preload that load languages after primary language loaded,
-so you can make switch of language more gentle  
+- nice UI with fixed count of active elements, so your pagination never broke the design if you have a large amount of pages; you can try this feature on [demo page](http://accetone.github.io/ng-pagination-demo)
+- saving current page to url query and use this on reload
+- lightweight, only 2.42 KB (this is cool, right? ;))
+- that's all folks!
 
 ### Usage
 
@@ -35,7 +33,7 @@ Embed script to your HTML document anywhere after `angular` script:
 <script src="path/to/directive.pagination.js"></script>
 ```
 
-Write activation method in your angular controller:
+Write activation method in your angular controller. It will be called each time when current page changed, so you can load and show new portion of your data. Also activation method will be called once after directive initialized:
 
 ```javascript
 angular
@@ -44,7 +42,7 @@ angular
 
 function customController($scope) {
   $scope.custom = {
-    itemsCount: 30,
+    itemsCount: 42,
     take: 10,
   
     activatePage: activatePage
@@ -64,6 +62,7 @@ Insert pagination directive into your markup:
 
 ### Options
 
+### Demo
 
 ### Contribution
 
