@@ -20,12 +20,6 @@ To install `ng-pagination` you can use npm
 npm install ng-pagination
 ```
 
-or bower
-
-```
-bower install ng-pagination
-```
-
 or copy `directive.pagination.js` file from `dist` folder on [github](https://github.com/accetone/ng-pagination/blob/master/dist/directive.pagination.js).
 
 ##### 02 Embeding
