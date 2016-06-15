@@ -1,7 +1,7 @@
 {
   "author": "Nikita Tsyhanenko",
   "name": "ng-pagination",
-  "description": "pagination directive for angular",
+  "description": "pagination directive for angular (1.x.x)",
   "version": "1.0.0",
   "repository": {
     "type": "git",
